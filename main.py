@@ -2,7 +2,7 @@ import tkinter as tk
 import mysql.connector
 import tkinter.ttk as ttk
 
-mydb = mysql.connector.connect(host="localhost", user="root", password="SidharthPriya")
+mydb = mysql.connector.connect(host="localhost", user="root", password="PASSWORD")
 cursor = mydb.cursor(buffered=True)
 
 cursor.execute("CREATE DATABASE IF NOT EXISTS tododb")
